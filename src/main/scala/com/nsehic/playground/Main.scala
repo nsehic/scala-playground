@@ -10,7 +10,8 @@ object Main {
 //    BooleanOperationsAndEquality.example()
 //    LoopsAndTailRecursion.example()
 //    HigherOrderFunctionsAndLambdas.example()
-    PatternMatchingAndPartialFunctions.example()
+//    PatternMatchingAndPartialFunctions.example()
+    Exceptions.example()
   }
 
 }
