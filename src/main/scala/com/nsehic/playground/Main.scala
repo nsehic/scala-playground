@@ -7,7 +7,8 @@ object Main {
 //    Types.example()
 //    Literals.example()
 //    Conditions.example()
-    BooleanOperationsAndEquality.example()
+//    BooleanOperationsAndEquality.example()
+    LoopsAndTailRecursion.example()
   }
 
 }
