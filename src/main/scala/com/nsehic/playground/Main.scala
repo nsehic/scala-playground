@@ -11,7 +11,8 @@ object Main {
 //    LoopsAndTailRecursion.example()
 //    HigherOrderFunctionsAndLambdas.example()
 //    PatternMatchingAndPartialFunctions.example()
-    Exceptions.example()
+//    Exceptions.example()
+    Collections.example()
   }
 
 }
