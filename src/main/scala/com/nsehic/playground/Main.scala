@@ -9,7 +9,8 @@ object Main {
 //    Conditions.example()
 //    BooleanOperationsAndEquality.example()
 //    LoopsAndTailRecursion.example()
-    HigherOrderFunctionsAndLambdas.example()
+//    HigherOrderFunctionsAndLambdas.example()
+    PatternMatchingAndPartialFunctions.example()
   }
 
 }
