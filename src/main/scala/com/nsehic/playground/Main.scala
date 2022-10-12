@@ -5,7 +5,8 @@ object Main {
   def main(args: Array[String]): Unit = {
 //    Basic.example()
 //    Types.example()
-    Literals.example()
+//    Literals.example()
+    Conditions.example()
   }
 
 }
