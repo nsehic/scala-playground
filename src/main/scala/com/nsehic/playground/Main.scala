@@ -6,7 +6,8 @@ object Main {
 //    Basic.example()
 //    Types.example()
 //    Literals.example()
-    Conditions.example()
+//    Conditions.example()
+    BooleanOperationsAndEquality.example()
   }
 
 }
