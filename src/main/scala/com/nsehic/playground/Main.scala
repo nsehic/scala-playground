@@ -17,7 +17,10 @@ object Main {
 //    Fibonacci.example()
 //    CollectionsAndRightAssociativeOperators.example()
 //    VariableArguments.example()
-    FunctionCurrying.example()
+//    FunctionCurrying.example()
+//    ObjectsAndProperties.example()
+//    Encapsulation.example()
+    AdvancedObjects.example()
   }
 
 }
