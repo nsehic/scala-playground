@@ -20,7 +20,8 @@ object Main {
 //    FunctionCurrying.example()
 //    ObjectsAndProperties.example()
 //    Encapsulation.example()
-    AdvancedObjects.example()
+//    AdvancedObjects.example()
+    DataStructures.example()
   }
 
 }
