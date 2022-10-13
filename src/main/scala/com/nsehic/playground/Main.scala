@@ -12,7 +12,8 @@ object Main {
 //    HigherOrderFunctionsAndLambdas.example()
 //    PatternMatchingAndPartialFunctions.example()
 //    Exceptions.example()
-    Collections.example()
+//    Collections.example()
+    ForComprehensions.example()
   }
 
 }
