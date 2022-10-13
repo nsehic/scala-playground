@@ -15,7 +15,8 @@ object Main {
 //    Collections.example()
 //    ForComprehensions.example()
 //    Fibonacci.example()
-    CollectionsAndRightAssociativeOperators.example()
+//    CollectionsAndRightAssociativeOperators.example()
+    VariableArguments.example()
   }
 
 }
