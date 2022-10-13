@@ -13,7 +13,8 @@ object Main {
 //    PatternMatchingAndPartialFunctions.example()
 //    Exceptions.example()
 //    Collections.example()
-    ForComprehensions.example()
+//    ForComprehensions.example()
+    Fibonacci.example()
   }
 
 }
