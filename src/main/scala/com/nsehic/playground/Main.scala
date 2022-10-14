@@ -21,7 +21,8 @@ object Main {
 //    ObjectsAndProperties.example()
 //    Encapsulation.example()
 //    AdvancedObjects.example()
-    DataStructures.example()
+//    DataStructures.example()
+    AlgebraicDataTypes.example()
   }
 
 }
