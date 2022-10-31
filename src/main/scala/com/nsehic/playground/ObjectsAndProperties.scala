@@ -32,6 +32,7 @@ object ObjectsAndProperties {
 
   trait SubtractWithAdd extends Add {
     def subtract(b: Int): Int = add(-b)
+    def somethingElse(b: Int): Int = 5
   }
 
   class Calculator(a: Int) extends Subtract with Add {

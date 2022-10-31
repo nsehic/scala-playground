@@ -23,7 +23,8 @@ object Main {
 //    AdvancedObjects.example()
 //    DataStructures.example()
 //    AlgebraicDataTypes.example()
-    Implicits.example()
+//    Implicits.example()
+    Playground.example()
   }
 
 }

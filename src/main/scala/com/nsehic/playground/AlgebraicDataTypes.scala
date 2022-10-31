@@ -18,9 +18,7 @@ object AlgebraicDataTypes {
         )
       )
 
-    println(p)
     println(e)
-
     println(shouldPaySalary(p))
     println(shouldPaySalary(e))
 
@@ -65,14 +63,17 @@ object AlgebraicDataTypes {
     case object Unidentified extends Entity
   }
 
+
   def shouldPaySalary(e: Entity): Boolean = e match {
     case _: Entity.Employee => true
     case _ => false
   }
 
+
   def optionExamples(): Unit = {
     val option1: Option[Int] = Some(1000)
     println(option1)
+    println("Hello There")
 
     val option2: Option[Int] = None
     println(option2)
@@ -86,6 +87,12 @@ object AlgebraicDataTypes {
     println(addOneAndConvertToString(option1))
   }
 
+  def age(e: Entity): Option[Int] = e match {
+    case Entity.Employee(_, Entity.Person(_, result)) => Some(result)
+    case Entity.Person(_, result) => Some(result)
+    case Entity.Unidentified => None
+  }
+
   def entityPersonListExample(): Unit = {
     val people: List[Entity.Person] =
       List(
@@ -97,10 +104,7 @@ object AlgebraicDataTypes {
     println(people.find(_.age % 2 != 0))
   }
 
-  def age(e: Entity): Option[Int] = e match {
-    case Entity.Employee(_, Entity.Person(_, result)) => Some(result)
-    case Entity.Person(_, result) => Some(result)
-    case Entity.Unidentified => None
+  def refactoring(): Unit = {
+    println("Refactoring here")
   }
-
 }
